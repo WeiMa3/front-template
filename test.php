@@ -20,14 +20,19 @@
     		font-family: 'Raleway', sans-serif;
     		font-size:13px;
     		color:#666;
-    		letter-spacing: 3px
+    		letter-spacing: 3px;
     	}
+
+        .whiteBG{
+            border-top:1px solid white;
+            background-color: white;
+        }
 
     	.p-info{
     		font-family:'Montserrat',sans-serif;
     		font-size:14px;
     		color:#666;
-    		letter-spacing: 1px
+    		letter-spacing: 1px;
     	}
     	.cardLogo{
     		width:80px;
@@ -42,7 +47,7 @@
     		font-family:'Montserrat',sans-serif;
     		font-size:11px;
     		color:#666;
-    		letter-spacing: 1px
+    		letter-spacing: 1px;
     	}
     	.cardImg{
     		width:33vw;
@@ -61,9 +66,10 @@
   </head>
   <body>
 
-    <div class="container fontMain sticky-header">
+    <div class="container-fluid sticky-top whiteBG">
+      <div class="container fontMain">
 <!-- logo -->
-    	<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530506578636&di=38f46b4e6af57ae69199166a80bb3d32&imgtype=0&src=http%3A%2F%2Fimg14.huitu.com%2Fres%2F20140722%2F580742_20140722172708973146_2.jpg" class="headlogo my-2 mx-auto d-block">	
+    	<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530506578636&di=38f46b4e6af57ae69199166a80bb3d32&imgtype=0&src=http%3A%2F%2Fimg14.huitu.com%2Fres%2F20140722%2F580742_20140722172708973146_2.jpg" class="headlogo my-1 mx-auto d-block">	
 <!-- nav bar -->
     	<ul class="nav nav-pills nav-fill">
 		  <li class="nav-item">
@@ -82,6 +88,7 @@
 		    <a class="nav-link" href="#">Link 4</a>
 		  </li>
 		</ul>
+      </div>
     </div>
 <!-- video -->
     <div class="container-fluid px-0 my-4">
